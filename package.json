@@ -1,0 +1,39 @@
+{
+  "name": "@owd-client/vite-plugin",
+  "version": "0.0.1",
+  "description": "Vite plugin for Open Web Desktop",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "vite-plugin",
+    "owd",
+    "vite",
+    "vue",
+    "vuejs"
+  ],
+  "author": {
+    "name": "hacklover",
+    "url": "https://github.com/hacklover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owdproject/owd-vite-plugin"
+  },
+  "devDependencies": {
+    "rollup": "^2.58.0"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/owdproject/owd-vite-plugin/issues",
+  "homepage": "https://owdproject.org",
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/hacklover"
+  }
+}
